@@ -1,16 +1,16 @@
 # GitHard: design
 
-Status: foundation, 8 Nov 2026. Nothing below is built yet. `docs/plan.md` says in what order it gets built.
+Status, 8 Nov 2026: M1 is built (`using-githard`, `writing`, `repo-setup`, and the eval harness). The rest is planned, and `docs/plan.md` gives the order it gets built in.
 
 ## What it is
 
-GitHard is a Claude Code plugin. It helps someone build and run a GitHub org and its repos the way well-run projects do: how the repos are set up, the issues, contributors, reviews, merges, releases, docs, security and growth. It's built from what actually worked, and what went wrong, running a real open-source project from its first commit (`knowledge/lessons.md`).
+GitHard is a Claude Code plugin. It helps someone build and run a GitHub org and its repos the way well-run projects do, whether they're starting one or already have one: how the repos are set up, the issues, contributors, reviews, merges, releases, docs, security and growth. It's built from what actually worked, and what went wrong, running a real open-source project from its first commit (`knowledge/lessons.md`).
 
 ## Who it's for first
 
 **Solo builders and small teams starting from zero:** one person, or a few, with an idea and a GitHub account and no maintainer experience. They want to look and work like a mature project from day one, without learning every GitHub setting the hard way.
 
-Open-source maintainers of existing projects and company orgs come later. Nothing should block them, but the examples, defaults and first skills are for the person starting out.
+**Existing orgs and repos** too. If a project is already running, GitHard audits it against the same lists and brings it up to the same standard, one fix at a time, so nobody has to start over.
 
 ## What it does for them
 

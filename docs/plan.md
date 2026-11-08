@@ -6,7 +6,7 @@ Each phase is a GitHub milestone, and each item below is an issue in it. Build i
 
 The plugin skeleton, the manifests, this plan, `docs/design.md`, `knowledge/`, repo community files, CI that validates the plugin, labels, templates, Discussions, milestones and these issues.
 
-## M1: Core
+## M1: Core (done 8 Nov 2026)
 
 1. **`using-githard`:** the entry skill and its routing table. Done when a request for each planned skill reaches the right one in evals, including skills that don't exist yet, where it says so plainly.
 2. **`writing`:** the house voice as a skill, with before and after examples, and swapping in a project's own style guide.

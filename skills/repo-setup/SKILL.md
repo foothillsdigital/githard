@@ -5,7 +5,7 @@ description: Use when creating a new GitHub repo, getting a repo ready to go pub
 
 # Repo setup
 
-A new GitHub repo starts with everything off: no ruleset, no private vulnerability reporting, nothing stopping a push straight to `main`. This skill gets a repo to where you'd want it a year from now, or audits one against the same list.
+A new GitHub repo starts with everything off: no ruleset, no private vulnerability reporting, nothing stopping a push straight to `main`. This skill gets a new repo to where you'd want it a year from now. For an existing repo, it audits it against the same list and fixes the gaps.
 
 The reasons behind every item are in `knowledge/lessons.md` (Repo setup), at the plugin root two folders up from this file.
 

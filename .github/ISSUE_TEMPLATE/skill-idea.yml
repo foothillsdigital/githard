@@ -1,0 +1,17 @@
+name: Skill idea
+description: Something GitHard should know how to do.
+body:
+  - type: textarea
+    id: job
+    attributes:
+      label: The job
+      description: What you're trying to get done on GitHub, in your own words.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: What happens today
+      description: How you do it now, and what goes wrong or takes too long.
+    validations:
+      required: true

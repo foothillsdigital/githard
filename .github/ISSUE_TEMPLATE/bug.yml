@@ -1,0 +1,24 @@
+name: Bug
+description: A skill did the wrong thing, or the plugin won't load.
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you asked for, what GitHard did, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: The prompt you gave, and anything about the repo it ran on.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: GitHard version and `claude --version`.
+    validations:
+      required: true

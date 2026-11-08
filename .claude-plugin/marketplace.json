@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "githard",
+  "description": "Makes AI build and manage your GitHub repos perfectly.",
+  "owner": {
+    "name": "James Conway",
+    "url": "https://github.com/jamesconwaydev"
+  },
+  "plugins": [
+    {
+      "name": "githard",
+      "description": "Set up and run GitHub orgs and repos the way well-run projects do: repo files, rulesets, issues, contributors, reviews, releases, docs and security.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
